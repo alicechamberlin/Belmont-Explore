@@ -10,7 +10,7 @@ import UIKit
 
 class CheckViewController: UIViewController {
 
-    let correct = true
+    var correct = false
     @IBOutlet weak var feedback : UILabel!
     @IBOutlet weak var button : UIButton!
     
